@@ -14,20 +14,20 @@ class Person
   
   def happy?=(num)
     if num > 10 
-       num == 10  
+       num = 10  
     end
     if num < 0 
-       num == 0 
+       num = 0 
     end
     return @happiness
   end 
   
   def clean?=(num)
     if num > 10 
-      num == 10 
+      num = 10 
     end 
     if num < 0 
-      num == 0 
+      num = 0 
     end
     return @hygiene
   end 
