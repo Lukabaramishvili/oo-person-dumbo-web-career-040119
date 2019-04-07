@@ -19,7 +19,7 @@ class Person
     if num < 0 
        num = 0 
     end
-    return @happiness
+    return @happiness = num 
   end 
   
   def clean?=(num)
@@ -29,7 +29,7 @@ class Person
     if num < 0 
       num = 0 
     end
-    return @hygiene
+    return @hygiene = num
   end 
   
 end
