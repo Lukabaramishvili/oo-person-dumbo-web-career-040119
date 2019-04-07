@@ -58,4 +58,10 @@ class Person
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end   
   
+  def work_out 
+    self.happiness += 2 
+    self.hygiene -= 3 
+    return 
+  end 
+  
 end
