@@ -14,21 +14,22 @@ class Person
   
   def happy?(happiness)
     if @happiness > 10 
-      @happiness = 10 
+      @happiness == 10 
     end
     if @happiness < 0 
-      @happiness = 0 
+      @happiness == 0 
     end
     return @happiness
   end 
   
   def clean?(hygiene)
     if @hygiene > 10 
-      @hygiene = 10 
+      @hygiene == 10 
     end 
     if @hygiene < 0 
-      @hygiene = 0 
+      @hygiene == 0 
     end
+    return @hygiene
   end 
   
 end
