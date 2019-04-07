@@ -21,6 +21,7 @@ class Person
     end
     return @happiness = num 
   end 
+  binding.pry
   
   def hygiene=(num)
     if num > 10 
@@ -30,7 +31,6 @@ class Person
       num = 0 
     end
     return @hygiene = num
-    binding.pry
   end 
   
   def happy? 
