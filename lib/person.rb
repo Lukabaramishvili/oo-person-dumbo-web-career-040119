@@ -21,7 +21,6 @@ class Person
     end
     return @happiness = num 
   end 
-  binding.pry
   
   def hygiene=(num)
     if num > 10 
@@ -34,7 +33,11 @@ class Person
   end 
   
   def happy? 
-    
+    if @happiness > 7
+      return true 
+    else 
+      return false 
+    end 
   end 
   
 end
