@@ -1,5 +1,4 @@
 require 'pry'
-require 'clamp'
 
 class Person
 
