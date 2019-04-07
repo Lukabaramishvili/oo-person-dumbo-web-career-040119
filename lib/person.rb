@@ -65,5 +65,7 @@ class Person
   end 
   
   def call_friend(self)
+    binding.pry
+  end
   
 end
