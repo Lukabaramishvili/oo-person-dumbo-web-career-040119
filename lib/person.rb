@@ -12,7 +12,7 @@ class Person
     @hygiene =hygiene
   end
   
-  def happy?=(num)
+  def happiness=(num)
     if num > 10 
        num = 10  
     end
@@ -22,7 +22,7 @@ class Person
     return @happiness = num 
   end 
   
-  def clean?=(num)
+  def hygiene=(num)
     if num > 10 
       num = 10 
     end 
