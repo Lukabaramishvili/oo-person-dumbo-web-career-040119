@@ -11,4 +11,15 @@ class Person
     @happiness = happiness
     @hygiene =hygiene
   end
+  
+  def happy?(happiness)
+    if @happiness > 10 
+      @happiness = 10 
+    end
+    if @happiness < 0 
+      @happiness = 0 
+    end
+    return @happiness
+  end 
+  
 end
