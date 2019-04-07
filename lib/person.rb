@@ -10,4 +10,5 @@ class Person
     @bank_account = bank_account
     @happiness = happiness
     @hygiene =hygiene
+  end
 end
