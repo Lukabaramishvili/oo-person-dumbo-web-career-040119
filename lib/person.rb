@@ -30,6 +30,11 @@ class Person
       num = 0 
     end
     return @hygiene = num
+    binding.pry
+  end 
+  
+  def happy? 
+    
   end 
   
 end
