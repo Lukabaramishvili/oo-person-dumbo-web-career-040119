@@ -13,17 +13,17 @@ class Person
   end
   
   def happy?=(num)
-    if @happiness > 10 
-      @happiness == 10 
+    if num > 10 
+       num == 10  
     end
-    if @happiness < 0 
-      @happiness == 0 
+    if num < 0 
+       num == 0 
     end
     return @happiness
   end 
   
-  def clean?(hygiene)
-    if @hygiene > 10 
+  def clean?=(num)
+    if num > 10 
       @hygiene == 10 
     end 
     if @hygiene < 0 
