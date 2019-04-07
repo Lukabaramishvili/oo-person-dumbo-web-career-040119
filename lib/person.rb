@@ -24,10 +24,10 @@ class Person
   
   def clean?=(num)
     if num > 10 
-      @hygiene == 10 
+      num == 10 
     end 
-    if @hygiene < 0 
-      @hygiene == 0 
+    if num < 0 
+      num == 0 
     end
     return @hygiene
   end 
